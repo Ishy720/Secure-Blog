@@ -1,0 +1,22 @@
+Blog Database Schema
+{
+    ID serial primary key,
+    title text,
+    content text,
+    posterID text,
+    subtitle text,
+    image text,
+    postername text,
+    flagged boolean
+}
+
+User Database Schema
+{
+    ID serial primary key,
+    username text,
+    password text,
+    firstname text,
+    isadmin boolean,
+    MFA text,
+    secret text,
+}
